@@ -44,7 +44,7 @@ struct Timer
 	}
 };
 
-void checkTimer()
+static void checkTimer()
 {
 	using namespace std::literals::chrono_literals; //fot 1s
 	Timer time("Check");
